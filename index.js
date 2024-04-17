@@ -2,8 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const hostname = 'localhost';
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
     console.log('Request for ' + req.url + ' by method ' + req.method);
@@ -63,6 +62,6 @@ const server = http.createServer((req, res) => {
     }
 });
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+    console.log(`Server running on port ${port}`);
 });
