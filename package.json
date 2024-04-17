@@ -1,1 +1,24 @@
-{}
+{
+  "name": "testfootballapp",
+  "description": "My Test Football App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasiik/testfootballapp.git"
+  },
+  "keywords": [
+    "football"
+  ],
+  "author": "sasiik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasiik/testfootballapp/issues"
+  },
+  "homepage": "https://github.com/sasiik/testfootballapp#readme"
+}
